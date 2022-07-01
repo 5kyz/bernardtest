@@ -1,10 +1,11 @@
 import React from 'react'
+import "../style/Header.css";
 
 const Header = () => {
   return (
     <nav>
 
-    <ul>
+    <ul className='list'>
       <li>
         Home
       </li>
